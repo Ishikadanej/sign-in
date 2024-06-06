@@ -1,0 +1,129 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #a5cc95, #c4b46d, #9ce0b6);
+    font-family: Arial, sans-serif;
+}
+
+/* Container Style */
+.container {
+    display: flex;
+    width: 60%;
+    max-width: 1200px;
+    height: 85%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+/* Left Section Style */
+.left-section {
+    background-color: #06554afb;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.brand-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #58c59b;
+}
+
+.welcome-message {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #e7dba6;
+}
+
+/* Right Section Style */
+.right-section {
+    background-color: white;
+    padding: 2rem;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    color: black;
+}
+
+/* Form Style */
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+   padding-bottom: 6%;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    padding-top: 2%;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 70%;
+    padding-bottom: 0.2%;
+    border: none;
+    border-bottom: 1px solid #0f0b0b;
+    font-size: 1rem;
+    background: none;
+    
+}
+
+button {
+    background-color: #4cb377;
+    color: white;
+    padding: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 70%;
+}
+
+button:hover {
+    background-color: #7cb342;
+}
+
+.last-element {
+    font-size: x-small;
+    color: #a09f9f;
+    padding-top: 12%;
+}
+
+.login-link {
+    margin-top: 1rem;
+    text-align: center;
+    color: black;
+}
+
+.login-link a {
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
